@@ -1,0 +1,80 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px 80px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+i {
+  display: none !important;
+}
+.burgers {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  gap: 30px;
+  padding-right: 50px;
+}
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  color: #636060;
+}
+.big{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+.text{
+  position: absolute;
+  color: #fff;
+  left: 30%;
+  top: 30%;
+  H1{ font-size: 79px;padding-bottom: 5%;}
+  p{ font-size: 19px; padding-left: 20%;}
+}
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.left-side {
+  width: 250px;
+  min-width: 250px;
+  height: 220px;
+}
+.right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 900px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+.left-side p,
+.right-side p {
+  color: #636060;
+}
+.right-side div {
+  width: 285px;
+  height: 300px;
+}
